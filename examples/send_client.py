@@ -124,6 +124,11 @@ if __name__ == '__main__':
     # If you are working with an OpenFire server, you may need
     # to adjust the SSL version used:
     # xmpp.ssl_version = ssl.PROTOCOL_SSLv3
+    
+    # For ejabberd you may need to adjust to TLSv1.2:
+    # xmpp.ssl_version = ssl.PROTOCOL_TLSv1_2
+    
+    # You will need to import import ssl for setting the SSL version.
 
     # If you want to verify the SSL certificates offered by a server:
     # xmpp.ca_certs = "path/to/ca/cert"
